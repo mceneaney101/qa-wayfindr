@@ -1,0 +1,38 @@
+{
+    "venue": {
+        "name": "Example venue",
+        "platforms": [{
+                      "name": "Platform",
+                      "entrance_beacon_major": 4,
+                      "entrance_beacon_minor": 9800,
+                      "exit_beacon_major": 4,
+                      "exit_beacon_minor": 9800,
+                      "destinations": ["Platform"]
+                      }],
+        "exits": [{
+                  "name": "1",
+                  "entrance_beacon_major": 4,
+                  "entrance_beacon_minor": 6866,
+                  "exit_beacon_major": 4,
+                  "exit_beacon_minor": 6866,
+                  "mode": "Main"
+                  }],
+        "station_facilities": [
+                               {
+                               "name": "Seating",
+                               "entrance_beacon_major": 4,
+                               "entrance_beacon_minor": 6631,
+                               "exit_beacon_major": 4,
+                               "exit_beacon_minor": 6631
+                               },
+                               {
+                               "name": "Information point",
+                               "entrance_beacon_major": 4,
+                               "entrance_beacon_minor": 6619,
+                               "exit_beacon_major": 4,
+                               "exit_beacon_minor": 6619
+                               }
+        ]
+    }
+}
+
